@@ -1,0 +1,40 @@
+{
+    "name": "Trellox",
+    "short_name": "Trellox",
+    "categories": ["Business"],
+    "start_url": "/",
+    "dir": "ltr",
+    "lang": "en-US",
+    "description": "Productive Application for managing projects and orginizing missions",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "screenshots" : [
+        {
+          "src": "homepage.webp",
+          "sizes": "1200x630",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Homescreen of Trellox"
+        },
+        {
+          "src": "board.webp",
+          "sizes": "1200x630",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Board of Trellox, the place where you manage your tasks"
+        }
+      ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
