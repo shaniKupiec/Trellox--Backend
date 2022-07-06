@@ -1,8 +1,28 @@
-# Trellox
+# Trellox Backend
 
-<p>Trellox is an App inspired by Trello </p>
-<p>The app was built with the latest web technologies such as Node.js, Vue.js, Vuex, MongoDB, and Socket.IO</p>
-<p>Allows the user to create a board for project management, business, design, education, marketing, and more </p>
+<p>Trellox is an App inspired by Trello. Trello is the ultimate project management tool .Start up a board in seconds, automate tedious tasks, and collaborate anywhere, even on mobile</p>
 
 <p><a href="https://trelloxx.herokuapp.com/#/" target="blank">Link to Trellox</a> </p>
-<p><a href="https://github.com/shaniKupiec/Trellox--Frontend" target="blank">Github Frontend Code</a> </p>
+<p><a href="https://github.com/shaniKupiec/Trellox--Frontend" target="blank">Frontend Code</a> </p>
+
+## Backend Tech
+- Mongodb
+- Express
+- Cors
+- Bcrypt
+- REST API
+- Socket.io
+
+## Features
+- Login, register and logout
+- Login with Google
+- Board CRUD, List CRUD, Task CRUD
+- Search, Filter
+- User can add to a card: members, labels, checklists, due-date, attachments, cover and stickers
+- More actions with card: make copy, move to another list or board, watch, share and record a video
+- Dashboard with information about the board
+- Searching photos using unsplash
+- Drag and drop list and task
+- Using reusable component for the pop up modal
+- Creating directive for closing modals when the area outside the modal is clicked
+
