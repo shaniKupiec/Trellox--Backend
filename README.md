@@ -5,6 +5,8 @@
 <p><a href="https://trelloxx.herokuapp.com/#/" target="blank">Link to Trellox</a> </p>
 <p><a href="https://github.com/shaniKupiec/Trellox--Frontend" target="blank">Frontend Code</a> </p>
 
+![image not found](https://res.cloudinary.com/trellox/image/upload/v1657785931/github%20-%20readme/trellox_jogefx.jpg)
+
 ## Backend Tech
 - Mongodb
 - Express
