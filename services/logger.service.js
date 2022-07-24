@@ -6,7 +6,6 @@ if (!fs.existsSync(logsDir)) {
     fs.mkdirSync(logsDir)
 }
 
-//define the time format
 function getTime() {
     let now = new Date()
     return now.toLocaleString()
@@ -22,7 +21,6 @@ function doLog(level, ...args) {
 
 module.exports = {
     debug(...args) {
-        // if (process.env.NODE_NEV === 'production') return
         doLog('DEBUG', ...args)
     },
     info(...args) {

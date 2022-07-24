@@ -72,8 +72,7 @@ async function broadcast({ type, data, room = null, userId }) {
   console.log('BROADCASTING', JSON.stringify(arguments))
   const excludedSocket = await _getUserSocket(userId)
   if (!excludedSocket) {
-    // logger.debug('Shouldnt happen, socket not found'
-    // _printSockets();
+    logger.debug("shouldn't happen, socket not found")
     return
   }
   logger.debug('broadcast to all but user: ', userId)

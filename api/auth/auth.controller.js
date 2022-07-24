@@ -23,7 +23,6 @@ async function signup(req, res) {
   try {
     const { fullname, username, email, password, isAdmin, boardIds, imgUrl } = req.body
     // Never log passwords
-    // logger.debug(fullname + ', ' + username + ', ' + password)
     const account = await authService.signup(fullname, username, email, password, isAdmin, boardIds, imgUrl)
     logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
     const user = await authService.login(email, password)
