@@ -2,7 +2,7 @@
 
 <p>Trellox is an App inspired by Trello. Trello is the ultimate project management tool .Start up a board in seconds, automate tedious tasks, and collaborate anywhere, even on mobile</p>
 
-<p><a href="https://trelloxx.herokuapp.com/#/" target="blank">Link to Trellox</a> </p>
+<p><a href="https://trellox-production.up.railway.app/" target="blank">Link to Trellox</a> </p>
 <p><a href="https://github.com/shaniKupiec/Trellox--Frontend" target="blank">Frontend Code</a> </p>
 
 ![image not found](https://res.cloudinary.com/trellox/image/upload/v1657785931/github%20-%20readme/trellox_jogefx.jpg)
